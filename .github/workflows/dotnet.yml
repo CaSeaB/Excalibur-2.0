@@ -35,9 +35,9 @@ jobs:
       run: dotnet build --no-restore
       working-directory: Excalibur-2.0
 
-    - name: Restore dependencies (Excalibur-2.0.Tests)
+    - name: Restore dependencies (Tests)
       run: dotnet restore
-      working-directory: Excalibur-2.0.Tests
-    - name: Test (Excalibur-2.0.Tests)
+      working-directory: Tests
+    - name: Test (Tests)
       run: dotnet test
-      working-directory: Excalibur-2.0.Tests
+      working-directory: Tests
