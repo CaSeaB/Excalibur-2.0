@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Excalibur2.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a7e6d0dd2618bb7f5acbc50f5d474350f35b19c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Excalibur2.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Excalibur2.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
