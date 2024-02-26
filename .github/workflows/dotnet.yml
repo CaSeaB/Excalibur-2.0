@@ -23,15 +23,15 @@ jobs:
       
     - name: Restore dependencies (Excalibur-2.0)
       run: dotnet restore
-      working-directory: Excalibur-2.0
+      working-directory: Excalibur-2.0/Excalibur-2.0
 
     - name: Build (Excalibur-2.0)
       run: dotnet build --no-restore
-      working-directory: Excalibur-2.0
+      working-directory: Excalibur-2.0/Excalibur-2.0
 
     - name: Restore dependencies (Tests)
       run: dotnet restore
-      working-directory: Tests
+      working-directory: Excalibur-2.0/Tests
     - name: Test (Tests)
       run: dotnet test
-      working-directory: Tests
+      working-directory: Excalibur-2.0/Tests
